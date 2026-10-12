@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <AssemblyName>CodexUsage</AssemblyName>
+    <StartupObject>CodexUsage.Desktop.App</StartupObject>
+    <Version>1.0.0</Version>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../CodexUsage.Core/CodexUsage.Core.csproj" /></ItemGroup>
+  <ItemGroup><Resource Include="app.ico" /></ItemGroup>
+</Project>
